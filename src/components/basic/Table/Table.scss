@@ -1,0 +1,39 @@
+.Table {
+  border-spacing: 0;
+  min-width: 500px;
+  td {
+    padding: 4px;
+  } 
+}
+
+.TableHead {
+  tr {
+    background-color: #444444;
+    border: 1px solid gray;
+
+    th {
+      height: 30px;
+      color: #fff;
+      position: relative;
+
+      .resizeHelper {
+        position: absolute;
+        width: 5px;
+        top: 0;
+        height: 100%;
+        right: -2.5px;
+        cursor: e-resize; 
+
+      }
+    }
+  }
+}
+
+.TableRow {
+  border: 1px solid gray;
+
+  td {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+}

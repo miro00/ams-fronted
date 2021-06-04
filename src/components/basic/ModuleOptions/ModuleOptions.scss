@@ -1,0 +1,10 @@
+.ModuleOptions {
+  min-height: 60px;
+  border-bottom: 1px solid lightgray;
+  padding: 4px 16px;
+
+  .buttons {
+    display: flex;
+    margin-top: 4px;
+  }
+}
